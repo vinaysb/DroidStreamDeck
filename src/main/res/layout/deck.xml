@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_1"
+            app:layout_constraintEnd_toStartOf="@+id/B2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_2"
+            app:layout_constraintEnd_toStartOf="@+id/B3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/B3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_3"
+            app:layout_constraintEnd_toStartOf="@+id/B4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/B4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_4"
+            app:layout_constraintEnd_toStartOf="@+id/B5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/B5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/B6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/B7" />
+
+        <Button
+            android:id="@+id/B7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/B8" />
+
+        <Button
+            android:id="@+id/B8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/B9" />
+
+        <Button
+            android:id="@+id/B9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/B0" />
+
+        <Button
+            android:id="@+id/B0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:onClick="connect"
+            android:text="@string/_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_txt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+    
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/ip_address_ET"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/port_ET"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/conn"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginTop="64dp"
+        android:onClick="connect"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/connect_ET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+</android.support.constraint.ConstraintLayout>
